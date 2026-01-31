@@ -26,5 +26,5 @@ jobs:
           remote_path: /var/www/primary-site/dist
           remote_host: 18.208.126.241
           remote_user: ubuntu
-          ssh_private_key: ${{ secrets.EC2_SSH_KEY }}
+          remote_key: ${{ secrets.EC2_SSH_KEY }}
     
